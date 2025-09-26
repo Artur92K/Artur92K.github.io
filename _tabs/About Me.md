@@ -2,23 +2,29 @@
 # the default layout is 'page'
 icon: fas fa-info-circle
 order: 1
+layout: default
+title: About Me
 ---
 
-Welcome to my blog! My name is Artur, a seasoned software engineer and technical team leader with over 10 years of experience in the IT industry.
-I specialize in Java and Kotlin programming, microservices architecture, and modern software development practices. 
-Currently, I work at Warner Bros. Discovery (HBO Max), focusing on scalable systems using technologies such as Spring Boot, Kafka, gRPC, Kubernetes, and cloud platforms like AWS.
+#### Welcome! <br><br>
+My name is Artur, a seasoned software engineer and technical team leader with over 10 years of experience in the IT industry.  
+I specialize in Java and Kotlin programming, microservices architecture, and modern software development practices.  
+Currently, I work at Warner Bros. Discovery (HBO Max), focusing on scalable systems using technologies such as Spring Boot, Kafka, gRPC, Kubernetes, and AWS.
 
-I hold a Master of Science degree in Electronics and Telecommunications from the Military University of Technology in Warsaw. 
+I hold a Master of Science degree in Electronics and Telecommunications from the Military University of Technology in Warsaw.  
 Over the years, I have gained deep expertise in building and leading software teams, designing system architectures with a focus on scalability, performance, and security in real-world projects.
 
-Throughout my career, I have participated in several notable technology conferences, including 4developers.net and various AWS Summit events, 
-sharing knowledge and staying engaged with the latest trends in software engineering.
+Throughout my career, I have participated in several notable technology conferences, including 4developers.net and various AWS Summit events,  
+where I shared knowledge and stayed engaged with the latest trends in software engineering.
 
-I am also available for mentoring with over 3 years of experience helping others grow their professional skills in software development and leadership.
+I am also available for mentoring, with over 3 years of experience helping others grow their professional skills in software development and leadership.
 
 ### More About Me
 
-Outside of work, I am passionate about martial arts, holding a brown belt in Brazilian Jiu-Jitsu. I am an enthusiast of biohacking and maximizing human potential. These interests help me maintain balance and continuously improve both personally and professionally.
+Outside of work, I am passionate about martial arts, holding a brown belt in Brazilian Jiu-Jitsu.  
+I am an enthusiast of biohacking and maximizing human potential.  
+Additionally, I actively enhance my financial knowledge through smart asset management and continuous learning.  
+These interests help me maintain balance and continuously improve both personally and professionally.
 
 ---
 
@@ -35,5 +41,4 @@ Outside of work, I am passionate about martial arts, holding a brown belt in Bra
 
 ---
 
-Thank you for visiting my blog. I hope you find valuable insights here to assist in your journey as a software developer.
-
+Thank you for visiting my blog. I hope you find valuable insights here to assist you in your journey as a software developer.

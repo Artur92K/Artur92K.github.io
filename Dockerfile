@@ -13,7 +13,7 @@ RUN apk add --no-cache \
 COPY . .
 
 RUN bundle install
-RUN bundle exec jekyll build
+RUN JEKYLL_ENV=production bundle exec jekyll build
 
 # Use this to keep container alive if you want, or remove CMD if not needed
 CMD ["tail", "-f", "/dev/null"]

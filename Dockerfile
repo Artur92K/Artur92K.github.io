@@ -1,4 +1,4 @@
-FROM ruby:3.2-alpine
+FROM ruby:3.4.6-alpine
 
 WORKDIR /srv/jekyll
 
@@ -15,6 +15,5 @@ COPY . .
 RUN bundle install
 RUN bundle exec jekyll build
 
-EXPOSE 4000
-
-CMD ["bundle", "exec", "jekyll", "serve", "--host", "0.0.0.0"]
+# Use this to keep container alive if you want, or remove CMD if not needed
+CMD ["tail", "-f", "/dev/null"]

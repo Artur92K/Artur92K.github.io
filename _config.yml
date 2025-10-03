@@ -10,7 +10,7 @@ timezone: Europe/Warsaw
 # ↓ --------------------------
 
 title: Artur K
-tagline: Senior Software Engineer # it will display as the subtitle
+tagline: Software Engineer | Problem Solver | Clarity Advocate | Philosophy Explorer # it will display as the subtitle
 description: >- # used by seo meta and the atom feed
   Artur K, Passionate Senior Software Engineer
 author:
@@ -82,7 +82,7 @@ theme_mode: dark
 # e.g. 'https://cdn.com'
 cdn:
 
-avatar: https://media.licdn.com/dms/image/v2/C4E03AQGHOtbR6KMyyQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1654147815620?e=1761782400&v=beta&t=R8Bu5Ryq6gI-eeJtxiw6b1XV6EviKcffuriCC17OVVM
+avatar: assets/img/avatar/avatar.jpg
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.

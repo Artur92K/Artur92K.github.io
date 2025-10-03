@@ -124,6 +124,7 @@ pwa:
     enabled: true       # Enable caching globally for PWA
     deny_paths:
       - "/"             # This excludes the root path from being cached
+      - "/feed.xml"             # This excludes the root path from being cached
 
 paginate: 25
 

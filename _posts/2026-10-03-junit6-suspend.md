@@ -4,6 +4,7 @@ date: 2025-10-03 15:00:00 +/-0200
 description: An insightful article about testing Kotlin suspend functions in JUnit 6 and the essential role of the @TestInstance annotation in managing the test lifecycle.
 categories: [Software, Kotlin ]
 tags: [ jdk, junit, testing, kotlin, coroutines ] 
+image: /assets/images/junit6-suspend-img.png
 ---
 
 # Introduction

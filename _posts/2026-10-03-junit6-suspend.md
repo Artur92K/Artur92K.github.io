@@ -129,8 +129,8 @@ This is where `@TestInstance` and `@Nested` become essential tools for stable an
 
 ### What is `@TestInstance`?
 
-JUnit creates test class instances to run test methods. By default, it uses the **`PER_METHOD`** lifecycle, meaning a *
-*new instance is created for every test method**. This ensures test isolation but can cause problems when:
+JUnit creates test class instances to run test methods. By default, it uses the **`PER_METHOD`** lifecycle, meaning a 
+**new instance is created for every test method**. This ensures test isolation but can cause problems when:
 
 - You want to share state between test methods.
 - You are writing Kotlin suspend functions, especially inside nested test classes, which require a stable instance for

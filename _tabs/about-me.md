@@ -4,7 +4,6 @@ icon: fas fa-info-circle
 order: 1
 layout: default
 title: About me
-permalink: about-me
 ---
 
 #### Welcome! <br><br>

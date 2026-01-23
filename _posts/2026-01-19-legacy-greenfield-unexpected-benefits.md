@@ -1,5 +1,5 @@
 ---
-title: "Greenfield vs Legacy Software: The Hidden Career Benefits of Legacy Code"
+title: "Greenfield vs Legacy Projects: The Hidden Career Benefits of Legacy Code"
 date: 2026-01-17 01:00:00 +/-0200
 description: Greenfield vs legacy software projects. Why You Should Volunteer for the Legacy Project (And How to Survive It)
 categories: [ Software, Architecture ]

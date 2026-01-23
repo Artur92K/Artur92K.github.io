@@ -203,9 +203,11 @@ resilient greenfield systems.
 So, when to suffer? Now. Embrace the legacy work. It is the gym where senior engineers are forged. And when you finally
 get that next blank slate, you won't just build it fast—you'll build it to survive.
 
-Soon I will publish a follow-up article about strategies and best practices for navigating both greenfield and legacy
-projects
-effectively. Stay tuned!
+#### Next chapter
+
+It's part 1 of a series on greenfield vs legacy projects.
+In [Greenfield vs Legacy Projects: Pain is temporary!]({% post_url 2026-01-26-legacy-greenfield-pain-is-temporary %}),
+I explore practical strategies for refactoring legacy systems and making greenfield projects sustainable.
 
 **The code you write today is tomorrow's legacy. Make it count.**
 

@@ -1,68 +1,18 @@
 ---
-title: "Greenfield vs Legacy Projects: When do you like to suffer?"
-date: 2026-01-26 13:00:00 +/-0200
+title: "Greenfield vs Legacy Projects: Pain is Temporary"
+date: 2026-01-23 00:00:00 +/-0200
 description: Greenfield vs legacy software projects. Learn when to suffer, how to refactor effectively, and why alternating between both makes you a better engineer. Includes AI tools guide.
 categories: [ Software, Architecture ]
 tags: [ job, architecture ]
 image: /assets/images/legacy-greenfield-img.png
 ---
 
-## TL;DR
-
-**Greenfield**: Fun at first, painful when hitting production. You learn modern practices but miss constraint-driven
-creativity.
-
-**Legacy**: Painful at first, rewarding when you start improving it. You develop rare skills and deep system
-understanding.
-
-**Best approach**: Alternate between both throughout your career. Use AI tools to accelerate both. Focus on continuous
-improvement, not perfection.
-
 ## Motivation
 
-Recently I have realized that during my career I constantly switched from legacy into greenfield projects and vice
-versa. Each time I was facing different challenges and opportunities. Somewhere during my 5th year of experience I
-thought that only greenfield projects are worth doing, as they allow you to use the latest technologies and best
-practices but was I right? After reflecting on my experiences more deeply, I observed that IT projects like these are
-forgiving. On the other hand, legacy projects are those which people don't want to touch because of challenges.
-Looking closer, they have some unique benefits which are not obvious at first glance. I have decided to write down my
-thoughts on the differences between these two types of projects, the pros and cons of each, and how to navigate them
-effectively.
-
-### Scenario 1 - Greenfield
-
-You are starting a new greenfield project. You have the freedom to choose your modern tech stack, architecture, and
-design patterns from scratch. This allows you to implement best practices and modern technologies without being
-constrained by legacy systems. A domain expert is working closely with the team. And one very important thing, the
-system is not on production yet!
-
-### Scenario 2 - Legacy
-
-You are joining a legacy project that has been running for several years. The codebase is large and complex written by
-people who are now directors or no longer exist, technology stack is outdated. There is no single domain expert knowing
-all features and assumptions. System is handling tons of users every day.
-
-## Technology stack
-
-#### Greenfield project
-
-In greenfield projects, you can choose the latest technologies and frameworks that best suit your needs. There are a few
-architectural drivers to consider, such as company technology stack, team skill set, industry direction, performance,
-and
-maintainability. Of course, you can also play a bit with CV-driven development, which can be sometimes beneficial for
-people but also can lead to overengineering.
-
-#### Legacy project
-
-In legacy projects, you are often limited to the existing technology stack. Upgrading or changing technologies is nearly
-impossible, but it opens other opportunities like gaining unique skills. You don't believe? Try to find
-engineers who are able to migrate production application from VertX (VertX is a reactive application framework) 3 to
-VertX 4 and later to Spring Boot in system which is around 200-500k LoC. At the same time there is plenty of other
-outdated libraries and frameworks which you need to deal with. What if company needs engineers who are able to maintain
-both technologies? Some time ago I was checking job offers and I found out that such skills were among the requirements!
-Isn't it interesting?
-
-## Refactoring is the key
+After writing about [Greenfield vs Legacy Software: The Hidden Career Benefits of Legacy Code]({% post_url
+2026-01-19-legacy-greenfield-unexpected-benefits %}), I kept thinking: okay, but *how* do you actually make legacy work
+rewarding instead of soul-crushing? And how do you keep greenfield projects from becoming tomorrow's nightmare? Let's
+dive in.
 
 I've got a few thoughts about team morale in the cycle which I visualized in the diagram below. It's just my
 opinion—your observations may differ.
@@ -73,23 +23,27 @@ drops at production, while legacy pain peaks initially but improves as you gain 
 ![Pain diagram](/assets/images/legacy-greenfield-pain-progress.png)
 
 Let's look at working on the system from a different angle. What if work is not about adding only new features but
-making things better overall. Happy users make the business happy, a happy business puts less pressure on engineers.
-Engineers
-gain trust and space for improvement so freedom and capacity have appeared.
-That's the point where work is not about fixing bugs or adding new features only, but about change.
+making things better overall? Happy users make the business happy, a happy business puts less pressure on engineers.
+Engineers gain trust and space for improvement—freedom and capacity appear. That's the point where work is not about
+fixing bugs or adding new features only, but about change.
 
-Let's start from the beginning. When a new greenfield project is starting, the team is excited about new technology,
-architecture,
-no legacy codebase and delivering new experience for users. On the other hand there are things to do which are boring
-like
-setting up new service, gluing all frameworks, configuring CI/CD pipelines, adding monitoring, logging and alerting. If
-you are lucky, most of the things are automated by DevOps team or there are some templates which can be used out of the
-box. After that phase, the team is able to focus on delivering new features till system goes to production. After that
-moment, things are changing. Users are using the system, reporting bugs, engineers are woken up during night because
-unexpected things happen or alerting setup needs some tweaks. After a while project is stable but from other hand it is
-becoming more and more complex. That means work is no longer so exciting as before.
+To recap from [part 1]({% post_url 2026-01-19-legacy-greenfield-unexpected-benefits %}#scenario-1---greenfield):
 
-On the opposite site of spectrum, joining a legacy project is like hitting the wall. Luckily I've got some insights
+- **Greenfield**: Clean slate, modern stack, no production yet
+- **Legacy**: Complex codebase, outdated tech, live users, no clear documentation
+
+## Refactoring is the key
+
+When a new greenfield project is starting, the team is excited about new technology, architecture, no legacy codebase
+and delivering new experience for users. On the other hand there are things to do which are boring like setting up new
+service, gluing all frameworks, configuring CI/CD pipelines, adding monitoring, logging and alerting. If you are lucky,
+most of the things are automated by DevOps team or there are some templates which can be used out of the box. After that
+phase, the team is able to focus on delivering new features till system goes to production. After that moment, things
+are changing. Users are using the system, reporting bugs, engineers are woken up during night because unexpected things
+happen or alerting setup needs some tweaks. After a while project is stable but from other hand it is becoming more and
+more complex. That means work is no longer so exciting as before.
+
+On the opposite side of the spectrum, joining a legacy project is like hitting a wall. Luckily I've got some insights
 how instead of breaking it you can jump over it. How do you jump over that wall instead of breaking against it? The
 answer lies in two phases: cleaning and redesign. Let's start with the cleaning phase, which provides quick wins and
 builds momentum.
@@ -155,7 +109,8 @@ happens.
 ### Redesign phase
 
 This phase is about improving architecture and design of the system. It will take more time and effort but will bring a
-lot of value. Think about it as refactoring code, but at a higher architectural level.. Unfortunately, there is no silver bullet
+lot of value. Think about it as refactoring code, but at a higher architectural level. Unfortunately, there is no
+silver bullet
 here, it will be many cycles, each will be probably painful, each will require testing and validation, you will feel
 that there is no light in the tunnel. But trust me, there is one!
 There are two main design patterns which can help you to improve system
@@ -181,9 +136,27 @@ that structures code around business domains—to help identify and define bound
 refactoring the system to better align with bounded
 contexts. This can involve moving code between modules, creating new modules, and changing the way that modules interact
 with each other. This process can be complex and time-consuming, but it will bring significant benefits in terms of
-maintainability and scalability.Again, here you can use above-mentioned design patterns like ACL and Strangler Fig
+maintainability and scalability. Again, here you can use above-mentioned design patterns like ACL and Strangler Fig
 Pattern or Event Storming sessions to help with that. One of the hardest parts will be database schema changes and data
 migration. You need to plan it carefully, test it thoroughly, and ensure that there is no data loss or corruption.
+
+## Stabilization is the goal
+
+Notice something important in the pain diagram above: both the greenfield and legacy curves eventually meet at
+stabilization. This isn't just optimistic thinking - it's what happens when you consistently apply refactoring
+principles.
+
+The legacy path (red line) shows declining pain as you execute the cleaning and redesign phases we discussed. Each dead
+code removal, each monitoring improvement, each bounded context you clarify reduces the friction. The pain spikes
+labeled 1, 2, through n represent individual refactoring cycles - yes, they hurt temporarily, but each one moves you
+closer to stability.
+
+The greenfield path (green line) shows increasing pain post-release as complexity accumulates and technical debt builds.
+Without continuous refactoring, what started clean becomes tomorrow's legacy nightmare.
+
+**The takeaway?** Both project types require the same discipline. Legacy projects need systematic cleanup to reduce
+pain. Greenfield projects need proactive refactoring to prevent pain from accumulating. The destination is the same: a
+stable, well-architected system. The only difference is the starting point.
 
 ## Conclusion
 
@@ -207,6 +180,7 @@ decisions.
 
 With the arrival of AI tools, both paths have become more accessible. AI accelerates documentation, code understanding,
 and routine refactoring—but it doesn't replace the judgment and experience you'll build by working in both environments.
+There will be more about that in the next blog post.
 
 Whether you're starting fresh or diving into decades-old code, remember: your goal isn't perfection—it's **continuous
 improvement**. Every refactoring, every cleaned-up module, every improved test brings value. Small, consistent
@@ -244,15 +218,4 @@ something that won't become the nightmare you once inherited.
 
 - [C4 Model for Software Architecture](https://c4model.com/) - Simon Brown  
   A practical approach to software architecture diagramming.
-
-### Methodologies and Practices
-
-- [Event Storming](https://www.eventstorming.com/) - Alberto Brandolini  
-  Collaborative workshop technique for exploring complex business domains.
-
-- [Domain-Driven Design Community](https://www.dddcommunity.org/)  
-  Resources, patterns, and community discussions on DDD practices.
-
-- [The Twelve-Factor App](https://12factor.net/)  
-  Methodology for building modern, scalable applications.
 

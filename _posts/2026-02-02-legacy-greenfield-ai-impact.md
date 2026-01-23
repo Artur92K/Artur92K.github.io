@@ -105,14 +105,13 @@ One of the most unexpected things in greenfield projects is that you will suffer
 After a few quite smooth months you will face real production issues, bugs, and performance problems. System is growing
 up, features are coming, and you are no longer in safe space. It's time to deal with real users. You are adding new
 feature, smooth review, merge, deploy to production and... boom. Something is broken, users are complaining, but you
-have
-no clue why.
-Welcome to real world of software development! Now it's time to work harder on monitoring, logging, and alerting. Some
-dashboards are not showing new path, logs are missing important traces. Time to fix it all, but what if you don't have
-expertise in such things?
+have no clue why. Welcome to real world of software development! Now it's time to work harder on monitoring, logging,
+and alerting. Some dashboards are not showing new path, logs are missing important traces. Time to fix it all, but what
+if you don't have expertise in such things?
 
 No worries, you will learn it very fast. There are three excellent books which can help you to move
-forward. [Site Reliability Engineering by Google](https://sre.google/books/) is an outstanding starting point. You can find
+forward. [Site Reliability Engineering by Google](https://sre.google/books/) is an outstanding starting point. You can
+find
 there comprehensive guidelines how to structure production support, incident management, and monitoring.
 
 You are joining a legacy project. First month is like being in big labyrinth, probably without any map. No knowledge
@@ -229,7 +228,8 @@ happens.
 ### Redesign phase
 
 This phase is about improving architecture and design of the system. It will take more time and effort but will bring a
-lot of value. Think about it as refactoring code, but at a higher architectural level.. Unfortunately, there is no silver bullet
+lot of value. Think about it as refactoring code, but at a higher architectural level.. Unfortunately, there is no
+silver bullet
 here, it will be many cycles, each will be probably painful, each will require testing and validation, you will feel
 that there is no light in the tunnel. But trust me, there is one!
 There are two main design patterns which can help you to improve system

@@ -1,6 +1,6 @@
 ---
 title: "Greenfield vs Legacy Projects: AI Tools changes everything"
-date: 2026-02-02 13:00:00 +/-0200
+date: 2026-03-02 13:00:00 +/-0200
 description: Greenfield vs legacy software projects. Learn when to suffer, how to refactor effectively, and why alternating between both makes you a better engineer. Includes AI tools guide.
 categories: [ Software, Architecture ]
 tags: [ job, architecture ]

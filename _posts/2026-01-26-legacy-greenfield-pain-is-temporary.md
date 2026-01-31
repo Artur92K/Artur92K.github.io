@@ -1,6 +1,6 @@
 ---
 title: "Greenfield vs Legacy Projects: Pain is Temporary"
-date: 2026-01-23 00:00:00 +/-0200
+date: 2026-01-31 00:00:00 +/-0200
 description: Greenfield vs legacy software projects. Learn when to suffer, how to refactor effectively, and why alternating between both makes you a better engineer. Includes AI tools guide.
 categories: [ Software, Architecture ]
 tags: [ job, architecture ]

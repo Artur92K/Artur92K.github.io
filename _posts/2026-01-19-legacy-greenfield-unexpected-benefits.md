@@ -206,7 +206,7 @@ get that next blank slate, you won't just build it fast—you'll build it to sur
 #### Next chapter
 
 It's part 1 of a series on greenfield vs legacy projects.
-In [Greenfield vs Legacy Projects: Pain is temporary!]({% post_url 2026-01-26-legacy-greenfield-pain-is-temporary %}),
+In [Greenfield vs Legacy Projects: Pain is temporary!]({% post_url 2026-01-31-legacy-greenfield-pain-is-temporary %}),
 I explore practical strategies for refactoring legacy systems and making greenfield projects sustainable.
 
 **The code you write today is tomorrow's legacy. Make it count.**

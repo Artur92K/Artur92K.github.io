@@ -5,6 +5,7 @@ description: Greenfield vs legacy software projects. Learn when to suffer, how t
 categories: [ Software, Architecture ]
 tags: [ job, architecture ]
 image: /assets/images/legacy-greenfield-img.png
+published: false
 ---
 
 ## TL;DR

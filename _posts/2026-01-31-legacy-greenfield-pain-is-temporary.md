@@ -4,7 +4,9 @@ date: 2026-01-31 00:00:00 +/-0200
 description: Greenfield vs legacy software projects. Learn when to suffer, how to refactor effectively, and why alternating between both makes you a better engineer. Includes AI tools guide.
 categories: [ Software, Architecture ]
 tags: [ job, architecture ]
-image: /assets/images/legacy-greenfield-img.png
+image:
+  path: /assets/images/legacy-greenfield-img.png
+  alt: "Split image: a clean, modern blue city on the left and a rusty, decaying industrial city on the right"
 ---
 
 ## Motivation
@@ -139,6 +141,8 @@ with each other. This process can be complex and time-consuming, but it will bri
 maintainability and scalability. Again, here you can use above-mentioned design patterns like ACL and Strangler Fig
 Pattern or Event Storming sessions to help with that. One of the hardest parts will be database schema changes and data
 migration. You need to plan it carefully, test it thoroughly, and ensure that there is no data loss or corruption.
+ Once the boundaries are clear, a separate question is whether a given bounded context should stay an internal module 
+ or become its own service. [This decision framework](https://www.bairesdev.com/blog/microservices-use-cases/){: rel="nofollow" } is a useful checklist for that.
 
 ## Stabilization is the goal
 
@@ -218,4 +222,7 @@ something that won't become the nightmare you once inherited.
 
 - [C4 Model for Software Architecture](https://c4model.com/) - Simon Brown  
   A practical approach to software architecture diagramming.
+
+- [Microservices Use Cases: When to Use Them and When Not To](https://www.bairesdev.com/blog/microservices-use-cases/){: rel="nofollow" } - BairesDev  
+  Decision framework for keeping bounded contexts as internal modules vs. extracting them into separate services.
 

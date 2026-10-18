@@ -4,7 +4,9 @@ date: 2026-03-02 13:00:00 +/-0200
 description: Greenfield vs legacy software projects. Learn when to suffer, how to refactor effectively, and why alternating between both makes you a better engineer. Includes AI tools guide.
 categories: [ Software, Architecture ]
 tags: [ job, architecture ]
-image: /assets/images/legacy-greenfield-img.png
+image:
+  path: /assets/images/legacy-greenfield-img.png
+  alt: "Split image: a clean, modern blue city on the left and a rusty, decaying industrial city on the right"
 published: false
 ---
 

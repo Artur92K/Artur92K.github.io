@@ -6,7 +6,6 @@ categories: [ AI, Career ]
 tags: [ ai, productivity, google, gemini, prompting, automation, business ]
 image:
   path: /assets/images/umiejetnosci-jutra-ai-intro.png
-  alt: "A presenter pointing at a glowing network diagram of connected AI nodes"
 published: true
 ---
 

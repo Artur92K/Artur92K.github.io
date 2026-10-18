@@ -6,7 +6,6 @@ categories: [ Software, Architecture ]
 tags: [ job, architecture ]
 image:
   path: /assets/images/legacy-greenfield-img.png
-  alt: "Split image: a clean, modern blue city on the left and a rusty, decaying industrial city on the right"
 ---
 
 ## Motivation

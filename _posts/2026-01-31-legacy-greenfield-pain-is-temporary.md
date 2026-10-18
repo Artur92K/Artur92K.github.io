@@ -6,7 +6,6 @@ categories: [ Software, Architecture ]
 tags: [ job, architecture ]
 image:
   path: /assets/images/legacy-greenfield-img.png
-  alt: "Split image: a clean, modern blue city on the left and a rusty, decaying industrial city on the right"
 ---
 
 ## Motivation
@@ -22,7 +21,7 @@ opinion—your observations may differ.
 The diagram illustrates the emotional journey in both project types. Notice how greenfield excitement peaks early but
 drops at production, while legacy pain peaks initially but improves as you gain mastery and implement improvements.
 
-![Pain diagram](/assets/images/legacy-greenfield-pain-progress.png)
+![](/assets/images/legacy-greenfield-pain-progress.png)
 
 Let's look at working on the system from a different angle. What if work is not about adding only new features but
 making things better overall? Happy users make the business happy, a happy business puts less pressure on engineers.
@@ -184,7 +183,7 @@ decisions.
 
 With the arrival of AI tools, both paths have become more accessible. AI accelerates documentation, code understanding,
 and routine refactoring—but it doesn't replace the judgment and experience you'll build by working in both environments.
-There will be more about that in the next blog post.
+[The next post]({% post_url 2026-02-02-legacy-greenfield-ai-impact %}) looks at how AI tools change this picture.
 
 Whether you're starting fresh or diving into decades-old code, remember: your goal isn't perfection—it's **continuous
 improvement**. Every refactoring, every cleaned-up module, every improved test brings value. Small, consistent
@@ -193,6 +192,12 @@ improvements compound over time into transformational change.
 So the next time you face a daunting legacy system, don't despair. See it as an opportunity to develop skills that will
 set you apart. And when you start that exciting greenfield project, remember the lessons from legacy codebases and build
 something that won't become the nightmare you once inherited.
+
+#### Next chapter
+
+It's part 2 of a series on greenfield vs legacy projects.
+In [Greenfield vs Legacy Projects: AI Changes the Tools, Not the Rules]({% post_url 2026-02-02-legacy-greenfield-ai-impact %}),
+I look at where AI tools speed up greenfield and legacy work, and where they add risk.
 
 **The code you write today is tomorrow's legacy. Make it count.**
 

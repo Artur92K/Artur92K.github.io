@@ -6,7 +6,6 @@ categories: [Software, Kotlin ]
 tags: [ jdk, junit, testing, kotlin, coroutines ] 
 image:
   path: /assets/images/junit6-suspend-img.png
-  alt: "Kotlin and JUnit 6 logos in front of a dark screen showing test results: Passed, Failed and Ignored"
 ---
 
 # Introduction
@@ -206,7 +205,7 @@ class MyServiceTest {
 
 This combination gives you clean, organized, and coroutine-friendly tests in JUnit 6 with Kotlin. Here are the results:
 
-![JUnit 6 Test Results](/assets/images/junit6-suspend-nested.png)
+![](/assets/images/junit6-suspend-nested.png)
 
 ---
 
